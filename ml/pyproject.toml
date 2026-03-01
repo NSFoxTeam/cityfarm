@@ -1,0 +1,26 @@
+[project]
+name = "cityfarm-ml"
+version = "0.1.0"
+description = "YOLO11 plant health monitoring for cityfarm"
+requires-python = ">=3.10"
+dependencies = [
+    "ultralytics>=8.3",
+    "fastapi>=0.115",
+    "uvicorn>=0.34",
+    "onnxruntime>=1.19",
+    "albumentations>=1.4",
+    "httpx>=0.28",
+    "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+label = [
+    "label-studio-sdk>=1.0",
+]
+tracking = [
+    "wandb>=0.19",
+]

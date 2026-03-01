@@ -1,0 +1,23 @@
+path: ./data/labeled
+train: images/train
+val: images/val
+test: images/test
+nc: 17
+names:
+  0: healthy
+  1: nutrient_deficiency_nitrogen
+  2: nutrient_deficiency_potassium
+  3: nutrient_deficiency_iron
+  4: powdery_mildew
+  5: downy_mildew
+  6: root_rot
+  7: leaf_spot
+  8: aphids
+  9: whitefly
+  10: spider_mites
+  11: fungus_gnats
+  12: seedling
+  13: vegetative
+  14: flowering
+  15: fruiting
+  16: harvest_ready

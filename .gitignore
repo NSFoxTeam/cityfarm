@@ -1,0 +1,55 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+cityfarm-agent
+cityfarm-api
+
+# Go
+vendor/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# ML data & models
+ml/data/raw/
+ml/data/labeled/
+ml/models/
+ml/runs/
+*.pt
+*.onnx
+*.tflite
+wandb/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+pgdata/
+images/
+
+# Temporary
+/tmp/
+*.log
