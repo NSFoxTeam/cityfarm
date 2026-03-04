@@ -1,9 +1,11 @@
-# Openclaw Dispatch — Viktor only (Vlad migrated to NanoClaw + org webhook)
+# Openclaw Dispatch — Viktor + Vlad
 #
 # Requires:
 #   - Self-hosted runner with label "viktor" on Viktor's Mac Mini
+#   - Self-hosted runner with label "vlad" on Vlad's Mac Mini
 #   - OpenClaw Gateway running on Viktor's Mac (port 18790)
-#   - Org secret: VIKTOR_WAKE_TOKEN
+#   - OpenClaw Gateway running on Vlad's Mac (port 18789)
+#   - Org secrets: VIKTOR_WAKE_TOKEN, VLAD_WAKE_TOKEN
 
 name: Openclaw Dispatch
 
@@ -18,6 +20,7 @@ jobs:
     runs-on: self-hosted
     outputs:
       wake_viktor: ${{ steps.check.outputs.wake_viktor }}
+      wake_vlad: ${{ steps.check.outputs.wake_vlad }}
     steps:
       - name: Determine target agents
         id: check
@@ -28,16 +31,21 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body || '' }}
         run: |
           WAKE_VIKTOR=false
+          WAKE_VLAD=false
 
           if [ "$EVENT_NAME" = "issues" ]; then
             if echo "$ISSUE_ASSIGNEES" | grep -q "viktor-nsfox"; then WAKE_VIKTOR=true; fi
+            if echo "$ISSUE_ASSIGNEES" | grep -q "vlad-nsfox"; then WAKE_VLAD=true; fi
           else
             if echo "$COMMENT_BODY" | grep -q "@viktor-nsfox"; then WAKE_VIKTOR=true; fi
+            if echo "$COMMENT_BODY" | grep -q "@vlad-nsfox"; then WAKE_VLAD=true; fi
             if [ "$SENDER" = "viktor-nsfox" ]; then WAKE_VIKTOR=false; fi
+            if [ "$SENDER" = "vlad-nsfox" ]; then WAKE_VLAD=false; fi
           fi
 
           echo "wake_viktor=$WAKE_VIKTOR" >> "$GITHUB_OUTPUT"
-          echo "Routing: viktor=$WAKE_VIKTOR (sender=$SENDER)"
+          echo "wake_vlad=$WAKE_VLAD" >> "$GITHUB_OUTPUT"
+          echo "Routing: viktor=$WAKE_VIKTOR vlad=$WAKE_VLAD (sender=$SENDER)"
 
   viktor:
     needs: route
@@ -79,3 +87,44 @@ jobs:
             -d @- \
             && echo "Viktor woke up" \
             || echo "Viktor wake failed"
+
+  vlad:
+    needs: route
+    if: needs.route.outputs.wake_vlad == 'true'
+    runs-on: [self-hosted, vlad]
+    steps:
+      - name: Wake OpenClaw agent
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+          ISSUE_ASSIGNEES: ${{ join(github.event.issue.assignees.*.login, ',') }}
+          COMMENT_BODY: ${{ github.event.comment.body || '' }}
+          SENDER: ${{ github.event.sender.login }}
+          REPO: ${{ github.repository }}
+          WAKE_TOKEN: ${{ secrets.VLAD_WAKE_TOKEN }}
+        run: |
+          if [ "$EVENT_NAME" = "issues" ]; then
+            ACTION="Issue #${ISSUE_NUMBER} assigned to you"
+          else
+            ACTION="New comment by ${SENDER} on issue #${ISSUE_NUMBER}"
+          fi
+
+          SHORT_BODY=$(printf '%s' "$ISSUE_BODY" | head -c 2000)
+
+          WAKE_TEXT=$(printf '%s\nRepo: %s\nIssue: #%s %s\n%s\nLabels: %s\nAssignees: %s\n\nDescription:\n%s\n\nComment:\n%s' \
+            "$ACTION" "$REPO" "$ISSUE_NUMBER" "$ISSUE_TITLE" "$ISSUE_URL" \
+            "$ISSUE_LABELS" "$ISSUE_ASSIGNEES" "$SHORT_BODY" "$COMMENT_BODY")
+
+          jq -n --arg message "$WAKE_TEXT" \
+            '{message: $message, name: "GitHub", wakeMode: "now", deliver: false}' | \
+          curl -sf --max-time 10 -X POST \
+            "http://127.0.0.1:18789/hooks/agent" \
+            -H "Authorization: Bearer ${WAKE_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d @- \
+            && echo "Vlad woke up" \
+            || echo "Vlad wake failed"
