@@ -4,7 +4,7 @@
 
 | Directory | Language | Description |
 |-----------|----------|-------------|
-| `firmware/` | Go | RPi 5 edge agent — sensors, camera, pump control |
+| `firmware/` | Rust | RPi 5 edge agent — sensors, camera, pump control |
 | `backend/` | Go | API server on VPS — REST, WebSocket, TimescaleDB |
 | `frontend/` | TypeScript/React | Dashboard — charts, camera, alerts |
 | `ml/` | Python | YOLO11 pipeline — dataset, training, inference |
@@ -18,8 +18,11 @@
 - **TCA9548A**: I2C mux at 0x70 (bus 1)
 - **BH1750**: light sensor at 0x23 via TCA9548A ch0-2
 - **ADS1115**: 16-bit ADC at 0x48 via TCA9548A ch7
-- **YL-69**: soil moisture (analog, through ADS1115)
-- **Relay**: GPIO17 → water pump
+- **YL-69**: soil moisture (analog, through ADS1115 A0)
+- **DFRobot pH V2**: analog pH sensor (through ADS1115 A1)
+- **DFRobot TDS**: analog TDS/EC sensor (through ADS1115 A2)
+- **DS18B20**: GPIO22 (1-Wire, solution temperature)
+- **Relay**: GPIO17 → water pump (active LOW)
 - **Camera**: Xiaomi Mijia 360 PTZ 2K (RTSP)
 
 ## Tech Stack
@@ -27,7 +30,7 @@
 - **Backend**: Go + Chi router + pgx + TimescaleDB
 - **Frontend**: React 19 + Vite + TanStack Query + Recharts + Tailwind + shadcn/ui
 - **ML**: Ultralytics YOLO11 + FastAPI + ONNX Runtime
-- **Firmware**: Go + periph.io + go-dht
+- **Firmware**: Rust + rppal + ads1x1x + tokio + linux-embedded-hal
 
 ## Sub-agents
 
@@ -41,8 +44,8 @@ Route tasks to the appropriate sub-agent:
 
 ```bash
 # Firmware (cross-compile for RPi)
-cd firmware && GOOS=linux GOARCH=arm64 go build -o cityfarm-agent ./cmd/cityfarm-agent/
-scp cityfarm-agent rpi:/opt/cityfarm/
+cd firmware && cross build --release --target aarch64-unknown-linux-gnu
+scp target/aarch64-unknown-linux-gnu/release/cityfarm-agent rpi:/opt/cityfarm/
 
 # Backend
 cd backend && go run ./cmd/cityfarm-api/

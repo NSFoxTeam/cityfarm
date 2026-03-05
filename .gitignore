@@ -9,6 +9,9 @@ cityfarm-api
 # Go
 vendor/
 
+# Rust
+target/
+
 # Node
 node_modules/
 dist/
