@@ -25,7 +25,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Linking & Tags
 
-- [ ] **LINK-01**: Wiki-ссылки `[[ссылка]]` между связанными заметками по всему vault
+- [x] **LINK-01**: Wiki-ссылки `[[ссылка]]` между связанными заметками по всему vault
 - [ ] **LINK-02**: Система тегов для категоризации заметок (домен, тип контента, статус)
 
 ### Reference & Integration
@@ -74,7 +74,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROC-03 | Phase 3 | Complete |
 | PROC-04 | Phase 3 | Complete |
 | PROC-05 | Phase 3 | Complete |
-| LINK-01 | Phase 4 | Pending |
+| LINK-01 | Phase 4 | Complete |
 | LINK-02 | Phase 4 | Pending |
 | REF-01 | Phase 5 | Pending |
 | REF-02 | Phase 5 | Pending |
