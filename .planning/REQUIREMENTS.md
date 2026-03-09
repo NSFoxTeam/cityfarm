@@ -19,7 +19,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **PROC-01**: Транскрипции модуля 3 (Питательные растворы, 12 уроков) обработаны пилотно — очищены, структурированы, извлечены знания
 - [x] **PROC-02**: Транскрипции модулей 1-2 переструктурированы из существующих сводок в topic-based atomic notes
-- [ ] **PROC-03**: Транскрипции модулей 4-6 обработаны — салаты/травы, микрозелень, устойчивое развитие
+- [x] **PROC-03**: Транскрипции модулей 4-6 обработаны — салаты/травы, микрозелень, устойчивое развитие
 - [x] **PROC-04**: Транскрипции модулей 7-9 обработаны — проектирование систем, микроклимат, освещение
 - [x] **PROC-05**: Транскрипции модулей 10-11 обработаны — выбор помещений, бизнес-основы
 
@@ -71,7 +71,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | VAULT-05 | Phase 1 | Complete |
 | PROC-01 | Phase 2 | Complete |
 | PROC-02 | Phase 3 | Complete |
-| PROC-03 | Phase 3 | Pending |
+| PROC-03 | Phase 3 | Complete |
 | PROC-04 | Phase 3 | Complete |
 | PROC-05 | Phase 3 | Complete |
 | LINK-01 | Phase 4 | Pending |
