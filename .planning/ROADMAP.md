@@ -30,11 +30,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Creating a new note from any template (knowledge note, reference table, parameter card) produces a file with correct YAML frontmatter
   4. Dataview, Templater, and Obsidian Git plugins are installed and functional
   5. Domain glossary of hydroponic terms exists and can be used for STT error correction during processing
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md — Vault structure, Home.md entry point, and Templater note templates
+- [ ] 01-02-PLAN.md — Obsidian plugins (Dataview, Templater, Git) and domain glossary for STT correction
 
 ### Phase 2: Pilot Processing
 **Goal**: Module 3 (Nutrient Solutions, 12 lessons) is fully processed into atomic topic-based notes, validating the entire cleanup-and-extraction pipeline
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Vault Foundation | 0/2 | Not started | - |
+| 1. Vault Foundation | 0/2 | Planning complete | - |
 | 2. Pilot Processing | 0/1 | Not started | - |
 | 3. Batch Processing | 0/3 | Not started | - |
 | 4. Cross-Linking | 0/1 | Not started | - |
