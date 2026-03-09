@@ -20,6 +20,21 @@
 
 | Topic | Source Section | Note Created | Folder | Status |
 |-------|---------------|-------------|--------|--------|
-| | | | | |
+| Гидропоника -- обзор и методы | Sections 1, 2 | Гидропоника-определение-и-методы.md | 02-Системы-выращивания | done |
+| Фитильная система | Section 3.1 | Фитильная-система.md | 02-Системы-выращивания | done |
+| Глубоководная система DWC | Section 3.2 | Глубоководная-система-DWC.md | 02-Системы-выращивания | done |
+| Периодическое затопление Ebb & Flow | Section 3.3 | Периодическое-затопление-Ebb-and-Flow.md | 02-Системы-выращивания | done |
+| Капельный полив | Section 3.4 | Капельный-полив.md | 02-Системы-выращивания | done |
+| NFT -- техника питательного слоя | Section 3.5 | NFT-техника-питательного-слоя.md | 02-Системы-выращивания | done |
+| Аэропоника | Section 4 | Аэропоника.md | 02-Системы-выращивания | done |
 
-*To be filled after Task 2*
+**Notes created:** 7
+**Decision:** Each growing system type gets its own note for independent lookup. Overview note covers definitions (soilless, substrate, hydroponics/aeroponics/aquaponics) and serves as an index to system-specific notes.
+
+## Totals
+
+| Module | Notes | Folder |
+|--------|-------|--------|
+| Module 1 | 5 | 01-Основы |
+| Module 2 | 7 | 02-Системы-выращивания |
+| **Total** | **12** | |
