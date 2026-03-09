@@ -3,10 +3,10 @@ title: "Суточная доза освещения (DLI)"
 type: parameter
 topic: освещение
 tags:
+  - домен/освещение
+  - тип/параметр
   - DLI
   - PPFD
-  - светокультура
-  - теплица
 source: module-10/урок-02
 created: 2026-03-09
 status: draft
