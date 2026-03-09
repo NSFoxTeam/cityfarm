@@ -1,0 +1,8 @@
+{
+  "renderNullAs": "\u2014",
+  "taskCompletionTracking": false,
+  "warnOnEmptyResult": true,
+  "recursiveSubTaskCompletion": false,
+  "enableDataviewJs": false,
+  "enableInlineDataview": false
+}
