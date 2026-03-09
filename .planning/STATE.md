@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 04-03-PLAN.md
-last_updated: "2026-03-09T16:08:54.022Z"
+status: completed
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-09T16:12:29.350Z"
 last_activity: 2026-03-09 -- Plan 04-03 executed (28 notes cross-linked in folders 02/07/08/09, 9 MOCs with cross-section nav)
 progress:
   total_phases: 5
@@ -59,6 +59,7 @@ Progress: [█████████░] 93% (Phase 4: 3/4 plans)
 | Phase 03 P05 | 3 | 2 tasks | 8 files |
 | Phase 04 P02 | 4 | 2 tasks | 32 files |
 | Phase 04 P03 | 4 | 2 tasks | 37 files |
+| Phase 04 P01 | 8 | 2 tasks | 36 files |
 
 ## Accumulated Context
 
@@ -103,6 +104,8 @@ Recent decisions affecting current work:
 - [Phase 04]: 3 missing sections in 05-Микроклимат (not 2); fixed pre-existing broken wiki-links with spaces
 - [Phase 04-03]: 1-4 cross-folder links per note, genuine relationships only
 - [Phase 04-03]: 3 cross-MOC links per MOC in Смежные разделы section
+- [Phase 04-01]: Fixed 34 broken wiki-links in folder 03 (spaces instead of hyphens)
+- [Phase 04-01]: Cross-folder links format: [[Exact-Filename|Display Text]] -- description
 
 ### Pending Todos
 
@@ -116,6 +119,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09T16:08:54.020Z
-Stopped at: Completed 04-03-PLAN.md
+Last session: 2026-03-09T16:12:29.348Z
+Stopped at: Completed 04-01-PLAN.md
 Resume file: None
