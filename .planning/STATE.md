@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 03-04-PLAN.md
-last_updated: "2026-03-09T15:10:45Z"
+status: completed
+stopped_at: Completed 03-06-PLAN.md
+last_updated: "2026-03-09T15:15:11.938Z"
 last_activity: 2026-03-09 -- Plan 03-04 executed (Module 9 lighting fundamentals, 10 notes in 06-Освещение/, 24 Glossary terms)
 progress:
   total_phases: 5
   completed_phases: 2
   total_plans: 11
-  completed_plans: 7
+  completed_plans: 9
   percent: 64
 ---
 
@@ -53,6 +53,8 @@ Progress: [██████░░░░] 64% (Phase 3: 4/6 plans)
 
 *Updated after each plan completion*
 | Phase 03 P04 | 7 min | 2 tasks | 13 files |
+| Phase 03 P06 | 9 | 2 tasks | 6 files |
+| Phase 03 P03 | 8 | 2 tasks | 20 files |
 
 ## Accumulated Context
 
@@ -83,6 +85,11 @@ Recent decisions affecting current work:
 - 03-04: Module 09 lessons 1-4 are business topics (automation, finance, sales), not lighting -- skipped
 - 03-04: Actual lighting content in module 09 starts at lesson 5; processed lessons 5-11 (not 1-7 as plan assumed)
 - 03-04: BH1750 measures lux (not PPFD); conversion coefficient needed and varies by light source spectrum
+- 03-03: Module 7 урок_1 is misfiled Module 6 sustainability content; Module 8 урок_1 is misfiled Module 7 assembly
+- 03-03: Air temperature/humidity/CO2 parameter cards distinct from solution-temperature notes
+- 03-03: IoT mapping: DHT22 for temp/humidity, MH-Z19B/SCD40 proposed for CO2
+- [Phase 03]: Module 11 all-practical: СВОДКА described business topics but actual transcripts are 100% premises infrastructure
+- [Phase 03]: Module 10 already processed by plan 03-04; Module 11 all placed in 08-Помещения/ (not 01-Основы/)
 
 ### Pending Todos
 
@@ -96,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09T15:10:45Z
-Stopped at: Completed 03-04-PLAN.md
+Last session: 2026-03-09T15:15:11.936Z
+Stopped at: Completed 03-06-PLAN.md
 Resume file: None
