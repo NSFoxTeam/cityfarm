@@ -12,7 +12,7 @@ Transform 82 raw course transcription files into a structured Obsidian knowledge
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Vault Foundation** - Obsidian vault structure, templates, plugins, and domain glossary
+- [x] **Phase 1: Vault Foundation** - Obsidian vault structure, templates, plugins, and domain glossary (completed 2026-03-09)
 - [ ] **Phase 2: Pilot Processing** - Process Module 3 (Nutrient Solutions) end-to-end to validate the pipeline
 - [ ] **Phase 3: Batch Processing** - Process all remaining modules (1-2 restructure, 4-11 from transcripts)
 - [ ] **Phase 4: Cross-Linking** - Wiki-links between notes and tag system across the entire vault
@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Vault structure, Home.md entry point, and Templater note templates
-- [ ] 01-02-PLAN.md — Obsidian plugins (Dataview, Templater, Git) and domain glossary for STT correction
+- [x] 01-02-PLAN.md — Obsidian plugins (Dataview, Templater, Git) and domain glossary for STT correction
 
 ### Phase 2: Pilot Processing
 **Goal**: Module 3 (Nutrient Solutions, 12 lessons) is fully processed into atomic topic-based notes, validating the entire cleanup-and-extraction pipeline
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Vault Foundation | 1/2 | In progress | - |
+| 1. Vault Foundation | 2/2 | Complete   | 2026-03-09 |
 | 2. Pilot Processing | 0/1 | Not started | - |
 | 3. Batch Processing | 0/3 | Not started | - |
 | 4. Cross-Linking | 0/1 | Not started | - |
