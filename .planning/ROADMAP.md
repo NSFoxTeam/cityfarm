@@ -80,10 +80,13 @@ Plans:
   1. Related notes are connected via `[[wiki-links]]` where one topic references another (not link-for-linking-sake)
   2. A consistent tag taxonomy is applied across all notes (domain tags, content type tags, status tags)
   3. Navigating from Home.md, a user can reach any note within 2-3 clicks through links
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md — Validation script + cross-folder wiki-links for 03-Растворы and 04-Культуры (35 notes)
+- [ ] 04-02-PLAN.md — Cross-folder wiki-links for 06-Освещение, 05-Микроклимат, 01-Основы (32 notes)
+- [ ] 04-03-PLAN.md — Cross-folder wiki-links for 02, 07, 08, 09 (28 notes) + MOC cross-section links
+- [ ] 04-04-PLAN.md — Tag taxonomy normalization across all 95 content notes
 
 ### Phase 5: Reference Tables & IoT Integration
 **Goal**: The vault delivers its highest-value output -- aggregated parameter tables and direct mapping to CityFarm sensors, thresholds, and alerts
@@ -110,5 +113,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 1. Vault Foundation | 2/2 | Complete   | 2026-03-09 |
 | 2. Pilot Processing | 3/3 | Complete   | 2026-03-09 |
 | 3. Batch Processing | 6/6 | Complete   | 2026-03-09 |
-| 4. Cross-Linking | 0/1 | Not started | - |
+| 4. Cross-Linking | 0/4 | Not started | - |
 | 5. Reference Tables & IoT Integration | 0/2 | Not started | - |
