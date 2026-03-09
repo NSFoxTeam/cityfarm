@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in-progress
-stopped_at: Completed 03-01-PLAN.md
-last_updated: "2026-03-09T15:08:00Z"
-last_activity: 2026-03-09 -- Plan 03-01 executed (Modules 1-2 summaries, 12 notes, 36 total)
+stopped_at: Completed 03-04-PLAN.md
+last_updated: "2026-03-09T15:10:45Z"
+last_activity: 2026-03-09 -- Plan 03-04 executed (Module 9 lighting fundamentals, 10 notes in 06-Освещение/, 24 Glossary terms)
 progress:
   total_phases: 5
   completed_phases: 2
   total_plans: 11
-  completed_plans: 6
-  percent: 55
+  completed_plans: 7
+  percent: 64
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-09)
 ## Current Position
 
 Phase: 3 of 5 (Batch Processing)
-Plan: 1 of 6 in current phase (done)
-Status: Plan 03-01 complete, ready for 03-02
-Last activity: 2026-03-09 -- Plan 03-01 executed (Modules 1-2 summaries, 12 notes, 36 total)
+Plan: 4 of 6 in current phase (done)
+Status: Plan 03-04 complete, ready for 03-05
+Last activity: 2026-03-09 -- Plan 03-04 executed (Module 9 lighting fundamentals, 10 notes in 06-Освещение/, 24 Glossary terms)
 
-Progress: [██████░░░░] 55% (Phase 3: 1/6 plans)
+Progress: [██████░░░░] 64% (Phase 3: 4/6 plans)
 
 ## Performance Metrics
 
@@ -45,14 +45,14 @@ Progress: [██████░░░░] 55% (Phase 3: 1/6 plans)
 |-------|-------|-------|----------|
 | 01-vault-foundation | 2/2 | 4 min | 2 min |
 | 02-pilot-processing | 3/3 | 14 min | 4.7 min |
-| 03-batch-processing | 1/6 | 4 min | 4 min |
+| 03-batch-processing | 4/6 | 11 min | 2.75 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (3 min), 02-01 (5 min), 02-02 (4 min), 02-03 (5 min), 03-01 (4 min)
-- Trend: stable (content plans ~4-5 min)
+- Last 5 plans: 02-02 (4 min), 02-03 (5 min), 03-01 (4 min), 03-04 (7 min)
+- Trend: stable (content plans ~4-7 min)
 
 *Updated after each plan completion*
-| Phase 03 P01 | 4 min | 2 tasks | 13 files |
+| Phase 03 P04 | 7 min | 2 tasks | 13 files |
 
 ## Accumulated Context
 
@@ -80,6 +80,9 @@ Recent decisions affecting current work:
 - 03-01: Module 1 sections 6,7,8 folded into existing topic notes (insufficient standalone content)
 - 03-01: Each hydroponic system type gets its own note for independent lookup
 - 03-01: Summary-based processing (СВОДКА) skips STT cleanup -- confirmed faster pipeline
+- 03-04: Module 09 lessons 1-4 are business topics (automation, finance, sales), not lighting -- skipped
+- 03-04: Actual lighting content in module 09 starts at lesson 5; processed lessons 5-11 (not 1-7 as plan assumed)
+- 03-04: BH1750 measures lux (not PPFD); conversion coefficient needed and varies by light source spectrum
 
 ### Pending Todos
 
@@ -93,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09T15:08:00Z
-Stopped at: Completed 03-01-PLAN.md
+Last session: 2026-03-09T15:10:45Z
+Stopped at: Completed 03-04-PLAN.md
 Resume file: None
