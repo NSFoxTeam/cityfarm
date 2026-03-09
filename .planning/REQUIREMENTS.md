@@ -9,9 +9,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Vault Setup
 
-- [ ] **VAULT-01**: Obsidian vault `CityFarm/` создан в корне проекта cityfarm с topic-based структурой папок
-- [ ] **VAULT-02**: Home.md как точка входа с навигацией по разделам vault
-- [ ] **VAULT-03**: Templater-шаблоны для каждого типа заметки (knowledge note, reference table, parameter card) с YAML frontmatter
+- [x] **VAULT-01**: Obsidian vault `CityFarm/` создан в корне проекта cityfarm с topic-based структурой папок
+- [x] **VAULT-02**: Home.md как точка входа с навигацией по разделам vault
+- [x] **VAULT-03**: Templater-шаблоны для каждого типа заметки (knowledge note, reference table, parameter card) с YAML frontmatter
 - [ ] **VAULT-04**: Obsidian plugins настроены: Dataview, Templater, Obsidian Git
 - [ ] **VAULT-05**: Domain glossary гидропонных терминов для коррекции STT-ошибок в транскрипциях
 
@@ -64,9 +64,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| VAULT-01 | Phase 1 | Pending |
-| VAULT-02 | Phase 1 | Pending |
-| VAULT-03 | Phase 1 | Pending |
+| VAULT-01 | Phase 1 | Complete |
+| VAULT-02 | Phase 1 | Complete |
+| VAULT-03 | Phase 1 | Complete |
 | VAULT-04 | Phase 1 | Pending |
 | VAULT-05 | Phase 1 | Pending |
 | PROC-01 | Phase 2 | Pending |
@@ -86,4 +86,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-03-09*
-*Last updated: 2026-03-09 after roadmap creation*
+*Last updated: 2026-03-09 after plan 01-01 completion*

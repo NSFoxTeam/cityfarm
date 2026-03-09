@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Vault structure, Home.md entry point, and Templater note templates
+- [x] 01-01-PLAN.md — Vault structure, Home.md entry point, and Templater note templates
 - [ ] 01-02-PLAN.md — Obsidian plugins (Dataview, Templater, Git) and domain glossary for STT correction
 
 ### Phase 2: Pilot Processing
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Vault Foundation | 0/2 | Planning complete | - |
+| 1. Vault Foundation | 1/2 | In progress | - |
 | 2. Pilot Processing | 0/1 | Not started | - |
 | 3. Batch Processing | 0/3 | Not started | - |
 | 4. Cross-Linking | 0/1 | Not started | - |
