@@ -97,11 +97,11 @@ Plans:
   2. Each parameter table entry includes source attribution (which module/lesson the value came from)
   3. IoT integration notes map each parameter to its CityFarm sensor, threshold value, alert condition, and recommended action
   4. A developer working on firmware or backend can look up any sensor threshold directly from the vault
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — Parameter cards: crop-specific breakdowns, source attribution, new solution temp and light cards
+- [ ] 05-02-PLAN.md — Consolidated IoT-mapping reference note and Home.md navigation update
 
 ## Progress
 
@@ -113,5 +113,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | 1. Vault Foundation | 2/2 | Complete   | 2026-03-09 |
 | 2. Pilot Processing | 3/3 | Complete   | 2026-03-09 |
 | 3. Batch Processing | 6/6 | Complete   | 2026-03-09 |
-| 4. Cross-Linking | 3/4 | In Progress|  |
+| 4. Cross-Linking | 4/4 | Complete   | 2026-03-09 |
 | 5. Reference Tables & IoT Integration | 0/2 | Not started | - |
