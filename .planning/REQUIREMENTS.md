@@ -64,26 +64,26 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| VAULT-01 | — | Pending |
-| VAULT-02 | — | Pending |
-| VAULT-03 | — | Pending |
-| VAULT-04 | — | Pending |
-| VAULT-05 | — | Pending |
-| PROC-01 | — | Pending |
-| PROC-02 | — | Pending |
-| PROC-03 | — | Pending |
-| PROC-04 | — | Pending |
-| PROC-05 | — | Pending |
-| LINK-01 | — | Pending |
-| LINK-02 | — | Pending |
-| REF-01 | — | Pending |
-| REF-02 | — | Pending |
+| VAULT-01 | Phase 1 | Pending |
+| VAULT-02 | Phase 1 | Pending |
+| VAULT-03 | Phase 1 | Pending |
+| VAULT-04 | Phase 1 | Pending |
+| VAULT-05 | Phase 1 | Pending |
+| PROC-01 | Phase 2 | Pending |
+| PROC-02 | Phase 3 | Pending |
+| PROC-03 | Phase 3 | Pending |
+| PROC-04 | Phase 3 | Pending |
+| PROC-05 | Phase 3 | Pending |
+| LINK-01 | Phase 4 | Pending |
+| LINK-02 | Phase 4 | Pending |
+| REF-01 | Phase 5 | Pending |
+| REF-02 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 14 total
-- Mapped to phases: 0
-- Unmapped: 14 ⚠️
+- Mapped to phases: 14
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-09*
-*Last updated: 2026-03-09 after initial definition*
+*Last updated: 2026-03-09 after roadmap creation*
