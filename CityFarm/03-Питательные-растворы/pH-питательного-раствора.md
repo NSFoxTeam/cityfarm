@@ -3,10 +3,10 @@ title: "pH питательного раствора"
 type: parameter
 topic: питательные-растворы
 tags:
+  - домен/растворы
+  - тип/параметр
   - pH
-  - параметр
-  - IoT
-  - контроль-раствора
+  - iot
 source: module-03/урок-05
 created: 2026-03-09
 status: draft

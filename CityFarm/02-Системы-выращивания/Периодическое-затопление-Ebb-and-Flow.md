@@ -3,9 +3,8 @@ title: "Периодическое затопление (Ebb & Flow)"
 type: knowledge
 topic: системы-выращивания
 tags:
-  - гидропоника
-  - ebb-and-flow
-  - периодическое-затопление
+  - домен/системы
+  - тип/знание
 source: module-02/сводка
 created: 2026-03-09
 status: draft

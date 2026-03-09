@@ -3,9 +3,9 @@ title: "Глубоководная система (DWC)"
 type: knowledge
 topic: системы-выращивания
 tags:
-  - гидропоника
+  - домен/системы
+  - тип/знание
   - DWC
-  - deep-water-culture
 source: module-02/сводка
 created: 2026-03-09
 status: draft

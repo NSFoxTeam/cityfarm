@@ -3,9 +3,9 @@ title: "NFT -- техника питательного слоя"
 type: knowledge
 topic: системы-выращивания
 tags:
-  - гидропоника
+  - домен/системы
+  - тип/знание
   - NFT
-  - nutrient-film-technique
 source: module-02/сводка
 created: 2026-03-09
 status: draft
