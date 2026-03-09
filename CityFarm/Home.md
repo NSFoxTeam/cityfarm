@@ -35,6 +35,22 @@ type: navigation
 - [[Температура-питательного-раствора|Температура раствора]]
 - [[Интенсивность-освещения|Интенсивность освещения]]
 
+## Ресурсы и датасеты
+
+### Сенсорные данные и IoT
+- [[10-Ресурсы/Датасеты/Hydroponic-Lettuce-Growth-IEEE|Hydroponic Lettuce Growth]] — IEEE, 3 системы (Aeroponics, NFT, DWC), 30 дней
+- [[10-Ресурсы/Датасеты/Hydroponics-Feed-Kaggle|Hydroponics Feed]] — температура, влажность, heat index с IoT
+- [[10-Ресурсы/Датасеты/IoT-Agriculture-2024-Kaggle|IoT Agriculture 2024]] — свежий датасет сенсоров
+- [[10-Ресурсы/Датасеты/Smart-Farming-Sensor-Yield-Kaggle|Smart Farming → Yield Prediction]] — сенсоры → урожайность
+
+### Рост и питание растений
+- [[10-Ресурсы/Датасеты/Plant-Growth-Hydroponic-vs-Soil-Kaggle|Hydroponic vs Soil Growth]] — сравнение гидропоника/грунт
+
+### Computer Vision (YOLO)
+- [[10-Ресурсы/Датасеты/Plant-Disease-Detection-Roboflow|Plant Disease Detection]] — Roboflow, YOLO-ready разметка
+- [[10-Ресурсы/Датасеты/Hydroponic-Disease-YOLOv8-v9-Study|YOLOv8 vs v9 Hydroponics]] — статья, болезни в гидропонике
+- [[10-Ресурсы/Датасеты/Hydroponic-Lettuce-YOLO-EfficientNet|YOLO-EfficientNet Lettuce Growth]] — классификация фаз роста салата
+
 ## О vault
 
 - Язык: русский (технические термины на английском)
