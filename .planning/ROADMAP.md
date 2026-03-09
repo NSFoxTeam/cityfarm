@@ -45,10 +45,12 @@ Plans:
   2. Knowledge is extracted into atomic notes (one concept per file) following vault templates
   3. Numeric parameters (pH, EC ranges for nutrient solutions) are extracted into reference format with source attribution
   4. Processing prompts are validated and reusable for batch processing in Phase 3
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: TBD
+- [ ] 02-01-PLAN.md — Process lessons 1-4, create processing prompt template and processing log
+- [ ] 02-02-PLAN.md — Process lessons 5-8 (pH, recipes, instruments, diagnostics)
+- [ ] 02-03-PLAN.md — Process lessons 9-12, finalize pipeline, human quality verification
 
 ### Phase 3: Batch Processing
 **Goal**: All remaining course modules are processed into the vault -- modules 1-2 restructured from existing summaries, modules 4-11 from raw transcripts
@@ -103,7 +105,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Vault Foundation | 2/2 | Complete   | 2026-03-09 |
-| 2. Pilot Processing | 0/1 | Not started | - |
+| 2. Pilot Processing | 0/3 | Not started | - |
 | 3. Batch Processing | 0/3 | Not started | - |
 | 4. Cross-Linking | 0/1 | Not started | - |
 | 5. Reference Tables & IoT Integration | 0/2 | Not started | - |
