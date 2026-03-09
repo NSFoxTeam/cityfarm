@@ -48,9 +48,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Process lessons 1-4, create processing prompt template and processing log
-- [ ] 02-02-PLAN.md — Process lessons 5-8 (pH, recipes, instruments, diagnostics)
-- [ ] 02-03-PLAN.md — Process lessons 9-12, finalize pipeline, human quality verification
+- [x] 02-01-PLAN.md — Process lessons 1-4, create processing prompt template and processing log
+- [x] 02-02-PLAN.md — Process lessons 5-8 (pH, recipes, instruments, diagnostics)
+- [x] 02-03-PLAN.md — Process lessons 9-12, finalize pipeline, human quality verification
 
 ### Phase 3: Batch Processing
 **Goal**: All remaining course modules are processed into the vault -- modules 1-2 restructured from existing summaries, modules 4-11 from raw transcripts
@@ -62,12 +62,15 @@ Plans:
   3. Modules 7-9 (system design, microclimate, lighting) are processed from transcripts into atomic notes
   4. Modules 10-11 (premises, business basics) are processed from transcripts into atomic notes
   5. All notes follow the same template schema and frontmatter conventions established in Phase 1-2
-**Plans**: TBD
+**Plans**: 6 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+- [ ] 03-01-PLAN.md — Restructure Modules 1-2 summaries into atomic notes (01-Основы/, 02-Системы-выращивания/)
+- [ ] 03-02-PLAN.md — Process Modules 4-6 transcripts (04-Культуры/, 09-Устойчивое-развитие/)
+- [ ] 03-03-PLAN.md — Process Modules 7-8 transcripts (07-Проектирование/, 05-Микроклимат/)
+- [ ] 03-04-PLAN.md — Process Module 9 lessons 1-7 (06-Освещение/ first half)
+- [ ] 03-05-PLAN.md — Process Module 9 lessons 8-14 (06-Освещение/ second half)
+- [ ] 03-06-PLAN.md — Process Modules 10-11 transcripts (08-Помещения/, selective business content)
 
 ### Phase 4: Cross-Linking
 **Goal**: All notes in the vault are interconnected through wiki-links and categorized with a consistent tag system
@@ -106,6 +109,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 |-------|----------------|--------|-----------|
 | 1. Vault Foundation | 2/2 | Complete   | 2026-03-09 |
 | 2. Pilot Processing | 3/3 | Complete   | 2026-03-09 |
-| 3. Batch Processing | 0/3 | Not started | - |
+| 3. Batch Processing | 0/6 | Not started | - |
 | 4. Cross-Linking | 0/1 | Not started | - |
 | 5. Reference Tables & IoT Integration | 0/2 | Not started | - |
