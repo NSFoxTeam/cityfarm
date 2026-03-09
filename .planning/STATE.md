@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 04-04-PLAN.md
-last_updated: "2026-03-09T16:21:03.143Z"
-last_activity: 2026-03-09 -- Plan 04-04 executed (37-tag taxonomy applied to 95 notes, replacing 267 ad-hoc tags)
+status: in-progress
+stopped_at: Completed 05-01-PLAN.md
+last_updated: "2026-03-09T20:00:00Z"
+last_activity: 2026-03-09 -- Plan 05-01 executed (7 parameter cards with crop breakdowns and source attribution)
 progress:
   total_phases: 5
   completed_phases: 4
-  total_plans: 15
-  completed_plans: 15
-  percent: 100
+  total_plans: 17
+  completed_plans: 16
+  percent: 94
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-09)
 
 **Core value:** Вся информация по сити-фармингу структурирована по темам и доступна как справочник для принятия решений по проекту CityFarm
-**Current focus:** Phase 4: Cross-Linking -- wiki-links and tag taxonomy
+**Current focus:** Phase 5: Reference Tables and IoT Integration
 
 ## Current Position
 
-Phase: 4 of 5 (Cross-Linking) -- COMPLETE
-Plan: 4 of 4 in current phase (done)
-Status: Phase 04 complete, ready for Phase 05
-Last activity: 2026-03-09 -- Plan 04-04 executed (37-tag taxonomy applied to 95 notes, replacing 267 ad-hoc tags)
+Phase: 5 of 5 (Reference Tables & IoT Integration)
+Plan: 1 of 2 in current phase (done)
+Status: Plan 05-01 complete, ready for 05-02
+Last activity: 2026-03-09 -- Plan 05-01 executed (7 parameter cards with crop breakdowns and source attribution)
 
-Progress: [██████████] 100% (Phase 4: 4/4 plans)
+Progress: [█████████░] 94% (Phase 5: 1/2 plans)
 
 ## Performance Metrics
 
@@ -61,6 +61,7 @@ Progress: [██████████] 100% (Phase 4: 4/4 plans)
 | Phase 04 P03 | 4 | 2 tasks | 37 files |
 | Phase 04 P01 | 8 | 2 tasks | 36 files |
 | Phase 04 P04 | 3 | 2 tasks | 95 files |
+| Phase 05 P01 | 2 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -108,6 +109,9 @@ Recent decisions affecting current work:
 - [Phase 04-01]: Fixed 34 broken wiki-links in folder 03 (spaces instead of hyphens)
 - [Phase 04-01]: Cross-folder links format: [[Exact-Filename|Display Text]] -- description
 - [Phase 04]: 37 unique tags (not 50-70): actual content supports fewer meaningful tags; orphan cross-cutting tags kept for search
+- [Phase 05-01]: Solution temp card confidence MEDIUM -- 18-22 C from general practice, not course material
+- [Phase 05-01]: Light card flags backend TODO -- no light thresholds in thresholds.go
+- [Phase 05-01]: CO2 card: no crop-specific data in vault, no values invented
 
 ### Pending Todos
 
@@ -121,6 +125,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09T16:17:23.388Z
-Stopped at: Completed 04-04-PLAN.md
+Last session: 2026-03-09T20:00:00Z
+Stopped at: Completed 05-01-PLAN.md
 Resume file: None

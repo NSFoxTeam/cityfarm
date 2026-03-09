@@ -30,7 +30,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Reference & Integration
 
-- [ ] **REF-01**: Справочные таблицы параметров — pH, EC, температура, влажность, освещённость, CO₂ с оптимальными диапазонами по культурам
+- [x] **REF-01**: Справочные таблицы параметров — pH, EC, температура, влажность, освещённость, CO₂ с оптимальными диапазонами по культурам
 - [ ] **REF-02**: Привязка параметров к CityFarm IoT — маппинг: параметр → датчик → порог → алерт → действие
 
 ## v2 Requirements
@@ -76,7 +76,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROC-05 | Phase 3 | Complete |
 | LINK-01 | Phase 4 | Complete |
 | LINK-02 | Phase 4 | Complete |
-| REF-01 | Phase 5 | Pending |
+| REF-01 | Phase 5 | Complete |
 | REF-02 | Phase 5 | Pending |
 
 **Coverage:**
