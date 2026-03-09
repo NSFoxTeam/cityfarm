@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 05-01-PLAN.md
-last_updated: "2026-03-09T20:00:00Z"
+status: completed
+stopped_at: Completed 05-02-PLAN.md
+last_updated: "2026-03-09T20:04:27.837Z"
 last_activity: 2026-03-09 -- Plan 05-01 executed (7 parameter cards with crop breakdowns and source attribution)
 progress:
   total_phases: 5
-  completed_phases: 4
+  completed_phases: 5
   total_plans: 17
-  completed_plans: 16
+  completed_plans: 17
   percent: 94
 ---
 
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-09)
 ## Current Position
 
 Phase: 5 of 5 (Reference Tables & IoT Integration)
-Plan: 1 of 2 in current phase (done)
-Status: Plan 05-01 complete, ready for 05-02
-Last activity: 2026-03-09 -- Plan 05-01 executed (7 parameter cards with crop breakdowns and source attribution)
+Plan: 2 of 2 in current phase (done)
+Status: Phase 05 complete. All 5 phases complete.
+Last activity: 2026-03-09 -- Plan 05-02 executed (IoT mapping reference with vault-vs-backend threshold comparison)
 
-Progress: [█████████░] 94% (Phase 5: 1/2 plans)
+Progress: [██████████] 100% (Phase 5: 2/2 plans)
 
 ## Performance Metrics
 
@@ -62,6 +62,7 @@ Progress: [█████████░] 94% (Phase 5: 1/2 plans)
 | Phase 04 P01 | 8 | 2 tasks | 36 files |
 | Phase 04 P04 | 3 | 2 tasks | 95 files |
 | Phase 05 P01 | 2 | 2 tasks | 7 files |
+| Phase 05 P02 | 2 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -112,6 +113,7 @@ Recent decisions affecting current work:
 - [Phase 05-01]: Solution temp card confidence MEDIUM -- 18-22 C from general practice, not course material
 - [Phase 05-01]: Light card flags backend TODO -- no light thresholds in thresholds.go
 - [Phase 05-01]: CO2 card: no crop-specific data in vault, no values invented
+- [Phase 05]: 5 backend TODO items from vault-vs-backend threshold comparison (light, CO2, EC range, temperature, humidity)
 
 ### Pending Todos
 
@@ -125,6 +127,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-09T20:00:00Z
-Stopped at: Completed 05-01-PLAN.md
+Last session: 2026-03-09T20:04:27.835Z
+Stopped at: Completed 05-02-PLAN.md
 Resume file: None
